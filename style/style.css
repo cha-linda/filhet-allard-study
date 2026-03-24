@@ -1017,7 +1017,7 @@ nav.top-menu.flow:after {
   position: absolute;
   right: 0;
   top: 0;
-  background: center/contain no-repeat url(/assets/images/icone_arrow.webp);
+  background: center/contain no-repeat url(../assets/images/icone_arrow.webp);
   transition: 0.25s ease-in-out;
 }
 #students .module-container .content .item-container .item .inner-title:hover:after, #students .module-container .content .item-container .item .inner-title:focus:after {
