@@ -436,25 +436,6 @@ nav.top-menu.flow:after {
   position: relative;
   white-space: nowrap;
 }
-#hero .custom-container .inner-container.baseline .image .btn:after {
-  content: "Parlons-en !";
-  color: #f5f5f5;
-  position: absolute;
-  left: 1em;
-  top: 0.5em;
-  transform: translateY(2.5em);
-  font-weight: bold;
-}
-#hero .custom-container .inner-container.baseline .image .btn:hover {
-  color: transparent;
-}
-#hero .custom-container .inner-container.baseline .image .btn:hover i {
-  transition: all 0.25s ease-in;
-}
-#hero .custom-container .inner-container.baseline .image .btn:hover:after {
-  transform: translateY(0);
-  transition: transform 0.5s ease-in;
-}
 #hero .custom-container .inner-container.baseline .text {
   margin-top: 1rem;
 }
