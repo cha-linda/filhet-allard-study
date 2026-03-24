@@ -467,7 +467,7 @@ nav.top-menu.flow:after {
 }
 #hero .custom-container .image-background {
   flex-grow: 1;
-  background: center/cover url(./assets/images/photo-WTTJ-office.webp);
+  background: center/cover url(../assets/images/photo-WTTJ-office.webp);
   height: 45vh;
   border-radius: 32px;
 }
@@ -598,7 +598,7 @@ nav.top-menu.flow:after {
 
 #numbers {
   background-color: #002E56;
-  background: center/cover url(/assets/images/background-graphique.webp);
+  background: center/cover url(../assets/images/background-graphique.webp);
   background-attachment: fixed;
 }
 #numbers .module-container {
@@ -1065,7 +1065,7 @@ nav.top-menu.flow:after {
 
 #metiers {
   background-color: #002E56;
-  background: center/cover url(/assets/images/background-graphique.webp);
+  background: center/cover url(../assets/images/background-graphique.webp);
   background-attachment: fixed;
 }
 #metiers .module-container {
