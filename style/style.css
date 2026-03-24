@@ -467,7 +467,7 @@ nav.top-menu.flow:after {
 }
 #hero .custom-container .image-background {
   flex-grow: 1;
-  background: center/cover url(/assets/images/photo-WTTJ-office.webp);
+  background: center/cover url(./assets/images/photo-WTTJ-office.webp);
   height: 45vh;
   border-radius: 32px;
 }
