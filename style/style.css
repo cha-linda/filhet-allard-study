@@ -494,7 +494,7 @@ nav.top-menu.flow:after {
     transform: translateX(-100%);
   }
 }
-#valeurs.minimal #marquee h6 {
+#valeurs.minimal #marquee span {
   display: inline-block;
   padding-top: 1.5rem;
   padding-inline: 2rem;
@@ -504,7 +504,7 @@ nav.top-menu.flow:after {
   flex-shrink: 0;
   animation: marquee 16s linear infinite;
 }
-#valeurs.minimal #marquee h6 u {
+#valeurs.minimal #marquee span u {
   text-decoration: none;
   color: #2A7FCA;
 }
@@ -1173,6 +1173,7 @@ nav.top-menu.flow:after {
 }
 #metiers .module-container .video-gallery .video-card .play-btn {
   position: absolute;
+  border: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
