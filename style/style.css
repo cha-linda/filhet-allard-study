@@ -510,7 +510,18 @@ nav.top-menu.flow:after {
 }
 @media (prefers-reduced-motion: reduce) {
   #valeurs.minimal #marquee {
+    height: auto;
+    overflow: visible;
+  }
+  #valeurs.minimal #marquee span {
     animation: none;
+    white-space: normal;
+    flex: 1 1 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+  #valeurs.minimal #marquee span:nth-of-type(2) {
+    display: none;
   }
 }
 #valeurs.minimal .module-container {
